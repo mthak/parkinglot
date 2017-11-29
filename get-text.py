@@ -6,8 +6,8 @@ import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 # our boto3 rekognition client
-AWS_ACCESS_KEY_ID='AKIAIBNASHOPVSVO44BA'
-AWS_SECRET_ACCESS_KEY='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'
+AWS_ACCESS_KEY_ID='XXXXXXXXXX'
+AWS_SECRET_ACCESS_KEY='wM8Lz7XXXXXXXXXXXoJXXXXXXCCCCCCCCCCC'
 conn = boto.connect_s3(AWS_ACCESS_KEY_ID,
                 AWS_SECRET_ACCESS_KEY)
 rekognition_client=boto3.client('rekognition')
